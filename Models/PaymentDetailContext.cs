@@ -7,7 +7,6 @@ namespace PaymentAPI.Models
         public PaymentDetailContext(DbContextOptions options) : base(options)
         {
         }
-
         public DbSet<PaymentDetail> PaymentDetails { get; set; }
     }
 }
